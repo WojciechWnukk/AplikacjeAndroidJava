@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">projekt2</string>
+    <string name="textview">TextView</string>
+    <string name="model">model</string>
+    <string name="producer">producer</string>
+    <string name="delete_all">delete all</string>
+    <string name="insert_button_description" />
+    <string name="napis">napis</string>
+    <string name="manufacturer">Manufacturer</string>
+    <string name="wprowad_tekst_tutaj">Wprowadź tekst tutaj</string>
+    <string name="android_version">Android version</string>
+    <string name="save">SAVE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="web_site">WEB SITE</string>
+</resources>

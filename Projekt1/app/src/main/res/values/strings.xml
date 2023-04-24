@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">lab1</string>
+    <string name="imie">Imie</string>
+    <string name="podaj_imie">podaj imie</string>
+    <string name="nazwisko">Nazwisko</string>
+    <string name="podaj_nazwisko">podaj nazwisko</string>
+    <string name="liczba">liczba</string>
+    <string name="liczba_ocen">Liczba ocen:</string>
+    <string name="oceny">Oceny</string>
+    <string name="oblicz_srednia">Oblicz srednia</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="wynik">Wynik</string>
+    <string-array name="tablica">
+        <item>Polski</item>
+        <item>Matma</item>
+        <item>Wf</item>
+        <item>Angielski</item>
+        <item>Chemia</item>
+        <item>Polski</item>
+        <item>Matma</item>
+        <item>Wf</item>
+        <item>Angielski</item>
+        <item>Chemia</item>
+        <item>Polski</item>
+        <item>Matma</item>
+        <item>Wf</item>
+        <item>Angielski</item>
+        <item>Chemia</item>
+        <item>Chemia</item>
+    </string-array>
+</resources>

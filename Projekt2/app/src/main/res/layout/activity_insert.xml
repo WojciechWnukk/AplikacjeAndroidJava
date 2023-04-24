@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="2"
+    tools:context=".InsertActivity">
+
+    <TableRow android:id="@+id/wiersz1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+      <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etykieta1"
+        android:text="@string/manufacturer">
+      </TextView>
+      <EditText android:layout_span="2"
+        android:layout_width="wrap_content"
+        android:hint="@string/wprowad_tekst_tutaj"
+        android:layout_height="wrap_content"
+        android:id="@+id/manufacturer"
+          android:inputType="text"
+          android:autofillHints=""
+          tools:ignore="VisualLintTextFieldSize">
+      </EditText>
+    </TableRow>
+    <TableRow android:id="@+id/wiersz2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etykieta2"
+            android:text="Model">
+        </TextView>
+
+        <EditText
+            android:id="@+id/model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:hint="Wprowadź tekst tutaj"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize"
+            android:autofillHints="" />
+    </TableRow>
+    <TableRow android:id="@+id/wiersz3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etykieta3"
+            android:text="@string/android_version">
+        </TextView>
+
+        <EditText
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:hint="Wprowadź tekst tutaj"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize"
+            android:autofillHints="" />
+    </TableRow>
+    <TableRow android:id="@+id/wiersz4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etykieta4"
+            android:text="Web site">
+        </TextView>
+
+        <EditText
+            android:id="@+id/webText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:hint="Wprowadź tekst tutaj"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize"
+            android:autofillHints="" />
+    </TableRow>
+    <TableRow
+        >
+        <Button
+            android:id="@+id/web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/web_site"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            style="?android:attr/buttonBarButtonStyle"
+            tools:ignore="VisualLintButtonSize" />
+
+    </TableRow>
+    </TableLayout>
